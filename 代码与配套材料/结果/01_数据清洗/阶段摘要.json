@@ -1,0 +1,18 @@
+{
+  "raw_documents": 2989,
+  "source_units": 88651,
+  "automatic_retained_occurrences": 7418,
+  "automatic_exact_events": 6114,
+  "final_event_records": 5965,
+  "layers": {
+    "扩展候选": 5183,
+    "主分析候选": 782
+  },
+  "fixed_removed": 237,
+  "fixed_added_or_revised": 90,
+  "independent_policy_count": null,
+  "independent_semantic_acceptance": false,
+  "raw_recomputed": true,
+  "full_recognition_rerun": false,
+  "final_events_canonical_sha256": "8c89ef67fc900e10b1843fb8806fdc009413277bc9784ad7803265a8438c2a4f"
+}

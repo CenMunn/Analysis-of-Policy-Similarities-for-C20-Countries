@@ -1,0 +1,27 @@
+[
+  {
+    "file": "jieba_MIT.txt",
+    "url": "https://raw.githubusercontent.com/fxsjy/jieba/master/LICENSE",
+    "sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37"
+  },
+  {
+    "file": "OpenCC_Apache2.txt",
+    "url": "https://raw.githubusercontent.com/BYVoid/OpenCC/master/LICENSE",
+    "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+  },
+  {
+    "file": "opencc_python_Apache2.txt",
+    "url": "https://raw.githubusercontent.com/yichen0831/opencc-python/master/LICENSE.txt",
+    "sha256": "eb818ec79475e13f3bc26dd989ff7d41dc354625fbdbba3d9c75753557301cd6"
+  },
+  {
+    "file": "FlagEmbedding_MIT.txt",
+    "url": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/master/LICENSE",
+    "sha256": "587a673933425dbc36ec61268d3b954051b2d3ef3c9b322ede357976055ffdd5"
+  },
+  {
+    "file": "fastText_CC_BY_SA_3.0.txt",
+    "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

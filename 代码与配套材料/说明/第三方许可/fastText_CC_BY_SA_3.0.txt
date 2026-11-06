@@ -1,0 +1,7 @@
+中文fastText预训练词向量及本包提取子集
+Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+许可全文：https://creativecommons.org/licenses/by-sa/3.0/legalcode.en
+Plain text: https://creativecommons.org/licenses/by-sa/3.0/legalcode.txt
+资源发布与署名：https://fasttext.cc/docs/en/crawl-vectors.html
+Grave, Bojanowski, Gupta, Joulin, Mikolov (2018), Learning Word Vectors for 157 Languages.
+本包修改：仅提取冻结分析词表中的300维词向量，按CC BY-SA 3.0分发此子集；没有训练原始模型。

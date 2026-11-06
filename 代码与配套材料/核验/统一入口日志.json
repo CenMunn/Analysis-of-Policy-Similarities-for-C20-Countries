@@ -1,0 +1,37 @@
+[
+  {
+    "stage": "01 数据清洗",
+    "seconds": 97.504,
+    "passed": true
+  },
+  {
+    "stage": "02 统一分词与TF-IDF",
+    "seconds": 22.201,
+    "passed": true
+  },
+  {
+    "stage": "03 加权词向量与BGE",
+    "seconds": 3.946,
+    "passed": true
+  },
+  {
+    "stage": "04 国家与教师六组",
+    "seconds": 10.631,
+    "passed": true
+  },
+  {
+    "stage": "05 评价与词数实验",
+    "seconds": 6.812,
+    "passed": true
+  },
+  {
+    "stage": "06 绘图",
+    "seconds": 13.174,
+    "passed": true
+  },
+  {
+    "stage": "07 核验",
+    "seconds": 6.965,
+    "passed": true
+  }
+]

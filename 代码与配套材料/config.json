@@ -1,0 +1,38 @@
+{
+  "version": "G20-GROUP1-20261027.final",
+  "data_version": "CLASSROOM-INPUT-CENTER-20261027.4",
+  "raw": "输入/期中作业双碳数据集.zip",
+  "country_universe": [
+    "中国",
+    "俄罗斯",
+    "加拿大",
+    "南非",
+    "印度",
+    "印度尼西亚",
+    "土耳其",
+    "墨西哥",
+    "巴西",
+    "德国",
+    "意大利",
+    "日本",
+    "欧盟",
+    "沙特阿拉伯",
+    "法国",
+    "澳大利亚",
+    "美国",
+    "英国",
+    "阿根廷",
+    "韩国"
+  ],
+  "K": [
+    50,
+    100,
+    200,
+    "all"
+  ],
+  "aggregation": "group_equal",
+  "seed": 20261027,
+  "bootstrap": 10000,
+  "reference_origin": "大模型辅助参考，用户整体确认；非独立真人逐条验收",
+  "independent_semantic_acceptance": false
+}

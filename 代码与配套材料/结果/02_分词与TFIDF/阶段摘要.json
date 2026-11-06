@@ -1,0 +1,167 @@
+{
+  "fit_scope": "冻结main_extended词表与IDF：article N=1873,event N=6042",
+  "vocabulary_size": 11258,
+  "oov_occurrences": 14,
+  "configs": [
+    {
+      "unit": "event",
+      "view": "main",
+      "K": 50,
+      "valid": 782,
+      "total_rows": 5965,
+      "truncated": 4,
+      "identical_to_all": 778,
+      "mean_weight_mass": 0.9996178072737828
+    },
+    {
+      "unit": "event",
+      "view": "main",
+      "K": 100,
+      "valid": 782,
+      "total_rows": 5965,
+      "truncated": 0,
+      "identical_to_all": 782,
+      "mean_weight_mass": 1.0
+    },
+    {
+      "unit": "event",
+      "view": "main",
+      "K": 200,
+      "valid": 782,
+      "total_rows": 5965,
+      "truncated": 0,
+      "identical_to_all": 782,
+      "mean_weight_mass": 1.0
+    },
+    {
+      "unit": "event",
+      "view": "main",
+      "K": "all",
+      "valid": 782,
+      "total_rows": 5965,
+      "truncated": 0,
+      "identical_to_all": 782,
+      "mean_weight_mass": 1.0
+    },
+    {
+      "unit": "event",
+      "view": "main_extended",
+      "K": 50,
+      "valid": 5965,
+      "total_rows": 5965,
+      "truncated": 33,
+      "identical_to_all": 5932,
+      "mean_weight_mass": 0.999164736164381
+    },
+    {
+      "unit": "event",
+      "view": "main_extended",
+      "K": 100,
+      "valid": 5965,
+      "total_rows": 5965,
+      "truncated": 2,
+      "identical_to_all": 5963,
+      "mean_weight_mass": 0.9999270493776866
+    },
+    {
+      "unit": "event",
+      "view": "main_extended",
+      "K": 200,
+      "valid": 5965,
+      "total_rows": 5965,
+      "truncated": 0,
+      "identical_to_all": 5965,
+      "mean_weight_mass": 1.0
+    },
+    {
+      "unit": "event",
+      "view": "main_extended",
+      "K": "all",
+      "valid": 5965,
+      "total_rows": 5965,
+      "truncated": 0,
+      "identical_to_all": 5965,
+      "mean_weight_mass": 1.0
+    },
+    {
+      "unit": "article_policy",
+      "view": "main",
+      "K": 50,
+      "valid": 597,
+      "total_rows": 1868,
+      "truncated": 34,
+      "identical_to_all": 563,
+      "mean_weight_mass": 0.98964463135472
+    },
+    {
+      "unit": "article_policy",
+      "view": "main",
+      "K": 100,
+      "valid": 597,
+      "total_rows": 1868,
+      "truncated": 5,
+      "identical_to_all": 592,
+      "mean_weight_mass": 0.9996982724398272
+    },
+    {
+      "unit": "article_policy",
+      "view": "main",
+      "K": 200,
+      "valid": 597,
+      "total_rows": 1868,
+      "truncated": 0,
+      "identical_to_all": 597,
+      "mean_weight_mass": 1.0
+    },
+    {
+      "unit": "article_policy",
+      "view": "main",
+      "K": "all",
+      "valid": 597,
+      "total_rows": 1868,
+      "truncated": 0,
+      "identical_to_all": 597,
+      "mean_weight_mass": 1.0
+    },
+    {
+      "unit": "article_policy",
+      "view": "main_extended",
+      "K": 50,
+      "valid": 1868,
+      "total_rows": 1868,
+      "truncated": 599,
+      "identical_to_all": 1269,
+      "mean_weight_mass": 0.9053208855144117
+    },
+    {
+      "unit": "article_policy",
+      "view": "main_extended",
+      "K": 100,
+      "valid": 1868,
+      "total_rows": 1868,
+      "truncated": 203,
+      "identical_to_all": 1665,
+      "mean_weight_mass": 0.9772286768774016
+    },
+    {
+      "unit": "article_policy",
+      "view": "main_extended",
+      "K": 200,
+      "valid": 1868,
+      "total_rows": 1868,
+      "truncated": 36,
+      "identical_to_all": 1832,
+      "mean_weight_mass": 0.9979433217406124
+    },
+    {
+      "unit": "article_policy",
+      "view": "main_extended",
+      "K": "all",
+      "valid": 1868,
+      "total_rows": 1868,
+      "truncated": 0,
+      "identical_to_all": 1868,
+      "mean_weight_mass": 1.0
+    }
+  ]
+}

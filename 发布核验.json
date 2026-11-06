@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-07",
+  "baseline": "最终提交文件夹；不包含清理档案与旧版工作目录",
+  "files_compared": 6261,
+  "copy_mismatches": [],
+  "python_files_parsed": 58,
+  "secret_pattern_hits": [],
+  "readme_missing_local_targets": [],
+  "maximum_file_MiB": 91.39,
+  "full_pipeline_rerun": false,
+  "verification_scope": "逐文件SHA256对照、Python语法解析、入口帮助、本地README链接与常见凭据模式检查；不代替独立语义验收",
+  "entry_help_passed": true,
+  "excluded_generated_files": [
+    "代码与配套材料/src/__pycache__/common.cpython-312.pyc",
+    "代码与配套材料/src/__pycache__/__init__.cpython-312.pyc"
+  ],
+  "project_files_tracked": 6259,
+  "original_office_and_resource_files_modified": false
+}

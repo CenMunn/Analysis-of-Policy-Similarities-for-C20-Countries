@@ -1,0 +1,3 @@
+﻿view,valid_texts,groups,K95,ci_low,ci_high,practical_roundup,success,mean_mass,singleton_strata
+main,597,531,52,47,64,70,0.9530988274706867,0.9907328006293736,13
+main_extended,1868,1432,144,132,157,160,0.9518201284796574,0.9919394550496241,43

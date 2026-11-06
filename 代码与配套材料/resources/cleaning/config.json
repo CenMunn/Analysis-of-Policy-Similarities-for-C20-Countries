@@ -1,0 +1,157 @@
+{
+  "version": "CM-PACE-20261026.terminal6.18",
+  "source_algorithm": "semantic-facts6.9.8+bounded-policy-links+portfolio-and-source-quality+registry6.11+assertion-and-execution6.16+literal-boundary6.17+terminal-scope6.18",
+  "country_weights": {
+    "E": 0.6,
+    "P": 0.15,
+    "D": 0.2,
+    "M": 0.05
+  },
+  "policy_lifecycle_checks": "resources/policy_lifecycle_checks.json",
+  "sample_seed": 2026102301,
+  "sample_target_per_arm": 200,
+  "authority_aliases": "resources/authority_aliases.json",
+  "raw_input_expected_sha256": "8f2597e141b2281701dbf22f879ba408b2de71a03e93e16f2866041ee91da8cb",
+  "fixed_dispositions": "resources/fixed_dispositions.jsonl",
+  "entity_aliases": "resources/entity_aliases.json",
+  "strict_input_hash": true,
+  "independent_acceptance_completed": false,
+  "focused_review": {
+    "context_chars": 900,
+    "new_layer": "扩展候选",
+    "source_inference": false,
+    "confidence_is_probability": false,
+    "weights_changed": false,
+    "retained_gate": "本句必须陈述措施；前文锚点不能将统计、评价变成政策"
+  },
+  "attribution_optimization": {
+    "enabled": true,
+    "authority_supplement": "resources/authority_supplement.json",
+    "weights": {
+      "E": 0.6,
+      "P": 0.15,
+      "D": 0.2,
+      "M": 0.05
+    },
+    "weak_min": 0.42,
+    "weak_margin": 0.1,
+    "context_chars": 800,
+    "position_scale_chars": 40,
+    "density_min_mentions": 3,
+    "density_min_sentences": 2,
+    "feature_version": "action_relative",
+    "constrain_source": true,
+    "source_reliability": 0.5,
+    "weak_context_E": 0.65,
+    "source_to_extension": false,
+    "score_is_probability": false,
+    "new_layer": "扩展候选",
+    "interface_mode": "post_content_contract",
+    "content_engine": "original_release_scope71",
+    "country_evidence_is_not_content_evidence": true,
+    "density_scope": "linked_policy",
+    "policy_density_chars": 800,
+    "contextual_goal_actors": {
+      "安倍政府": "日本"
+    }
+  },
+  "known_case_review": {
+    "cases": 9,
+    "algorithm_case": 1,
+    "explicit_review_cases": 8,
+    "added_dispositions": 12,
+    "independent_human": false,
+    "weights_changed": false
+  },
+  "residual_issue_review": {
+    "issue_groups": 4,
+    "source_documents": 4,
+    "added_dispositions": 27,
+    "previous_dispositions": 98,
+    "independent_human": false,
+    "changes": "争议/事实分离、事实/效果拆分、同指南执行条款连接、条约接受/假设/竞选状态区分",
+    "weights_changed": false,
+    "model_changed": false
+  },
+  "scope_density_review": {
+    "new_reference_units": 60,
+    "groups": 57,
+    "development": 43,
+    "reference_check": 17,
+    "weights_changed": false,
+    "independent_human": false,
+    "notes": "新参考标签不是生产处置输入；仅用于开发/参考检查。D仅调整证据统计范围，不绕过角色优先。",
+    "final_review": "修复所有权完整实体、未采纳保护、800字符边界及全量回归；权重未变"
+  },
+  "ndc_coordination_closeout": {
+    "baseline": "CM-PACE-20261026.scope-density6.3",
+    "scope": "保留更强当前角色；国家政策与地方参与绑定到动作；地方自主加码不升级",
+    "weights_changed": false,
+    "thresholds_changed": false,
+    "fixed_reviews_changed": false,
+    "development_reference_only": true,
+    "independent_human": false,
+    "regression_guard": "通过公共性与状态检查，且主体动作直接断言；不得仅凭句内实体与动作位置抬高评级"
+  },
+  "assertion_connection_review": {
+    "baseline": "CM-PACE-20261026.ndc-coordination6.6",
+    "development_units": 72,
+    "independent_human": false,
+    "weights_changed": false,
+    "model_changed": false,
+    "new_fixed_dispositions": 0,
+    "notes": "主断言与效果分离；平台/提案状态分流；机构及具名政策/全文概述的有界连接；参考标签只用于开发检查，不作为生产输入",
+    "first_full_run": "6.7首次抽查发现官方支持声明误删2次报道、并列平台后半句未分流；修正后重新全量运行"
+  },
+  "joint_nested_review": {
+    "baseline": "6.7.1",
+    "weights_changed": false,
+    "thresholds_changed": false,
+    "reference_labels_in_runtime": false,
+    "new_fixed_dispositions": 0,
+    "changes": [
+      "共同政策公布方与参与国分开",
+      "条件完整的本国履约引语与外国退出拆分",
+      "媒体预测与政府原目标按原文多片段拆分"
+    ],
+    "first_run_finding": "全局安倍政府别名使旧链新增2条氢能材料，其中1条标题正文黏连；改为仅供嵌套目标抽取使用的局部映射，复跑全量"
+  },
+  "final_fact_refiner": {
+    "enabled": true,
+    "link_chars": 1800,
+    "weights_changed": false,
+    "reference_labels_in_runtime": false,
+    "source_inference_enabled": false,
+    "review_legacy_multipart_drafts": true,
+    "notes": "当前公共公布入口、已实施法律锚点、企业/评论/定义/竞选隔离；评分权重不变"
+  },
+  "source_quality_reviews": "resources/source_quality_reviews_6_10.json",
+  "registry": {
+    "enabled": true,
+    "content_decisions_changed": false,
+    "relative_date_inference": false,
+    "semantic_policy_merge": false,
+    "identity_independent_acceptance": false
+  },
+  "additional_assertion_review": {
+    "reference_cases": 56,
+    "independent_human": false,
+    "unseen_to_406_documents": false,
+    "used_for_development": true,
+    "weights_changed": false,
+    "known_near_duplicate_examples": true,
+    "extra_in_sample_document_cases": 20,
+    "other_document_cases": 36,
+    "attribute_cases": 6,
+    "note": "20条来自开发文档其他位置，36条来自开发文档外且含近重复；均已用于开发，不是独立验收"
+  },
+  "literal_boundary_cleanup": {
+    "enabled": true,
+    "version": "literal-boundary-6.17",
+    "development_cases": 7,
+    "literal_spans_only": true,
+    "changes_country_weights": false,
+    "removes_conditions": false,
+    "original_sources_preserved": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "folder": "第1组+自然语言处理期中大作业",
+  "submission_materials": [
+    "PPT",
+    "代码",
+    "分析报告",
+    "配套资源与数据",
+    "最终表格与原文证据",
+    "图表及离线网页",
+    "运行说明"
+  ],
+  "report_preserved_byte_for_byte": true,
+  "presentation_preserved_byte_for_byte": true,
+  "presentation_slides": 26,
+  "run_mode": "classroom",
+  "seconds": 168.03993890000856,
+  "engineering_checks_passed": 87,
+  "comparison": [
+    {
+      "file": "04_国家关系/相似度矩阵.csv",
+      "identical_content": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "04_国家关系/前三近邻.csv",
+      "identical_content": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "05_评价/方法对照.csv",
+      "identical_content": true,
+      "identical_bytes": true
+    },
+    {
+      "file": "05_评价/词数精细估计.csv",
+      "identical_content": true,
+      "identical_bytes": true
+    }
+  ],
+  "omitted": [
+    "本机虚拟环境",
+    "缓存及字节码",
+    "旧演示输出",
+    "重复大体积中间向量",
+    "制图制文档临时脚本",
+    "旧报告及制作过程文件"
+  ],
+  "archive_created": false,
+  "layout": {
+    "outer": [
+      "分析报告.docx",
+      "G20双碳政策相似性分析 第一组.pptx"
+    ],
+    "materials": "代码与配套材料"
+  },
+  "layout_verification": {
+    "entry_help_passed": true,
+    "relative_root_resolved": true,
+    "resources_and_raw_found": true,
+    "office_files_unchanged": true,
+    "full_pipeline_rerun_after_move": false,
+    "basis": "仅整体移动相对路径目录；前轮完整课堂实跑87项通过，本轮核对入口和资源路径，不重复全量计算。"
+  }
+}

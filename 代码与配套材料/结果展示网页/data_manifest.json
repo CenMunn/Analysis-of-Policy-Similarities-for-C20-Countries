@@ -1,0 +1,103 @@
+{
+  "source_root": "../结果",
+  "version": "G20-GROUP1-20261027.final",
+  "sources": {
+    "核验/本次运行.json": {
+      "file": "核验/本次运行.json",
+      "sha256": "6ba9e243a6530297b068a9a9e543f44ac3db805a33dda579f9df5d01b2746fea"
+    },
+    "核验/运行核验.json": {
+      "file": "核验/运行核验.json",
+      "sha256": "af8fccd5fddfc3116f9bf652866de549a2bd6c9f52dc42d630749f325725c548"
+    },
+    "01_数据清洗/阶段摘要.json": {
+      "file": "01_数据清洗/阶段摘要.json",
+      "sha256": "034c70e0822359ef355d4e53283816f6288733023e6aaa99dcf4d2d3285445dc"
+    },
+    "02_分词与TFIDF/阶段摘要.json": {
+      "file": "02_分词与TFIDF/阶段摘要.json",
+      "sha256": "549711eee86efff254116ac7e89a35a5342e38e1bdf75587d9ffb9bf9e5332d1"
+    },
+    "03_词向量/阶段摘要.json": {
+      "file": "03_词向量/阶段摘要.json",
+      "sha256": "bcc7cfc9535cba078c66e378d84416d05caedfbbbbe215377cc2799cee3bef6b"
+    },
+    "04_国家关系/阶段摘要.json": {
+      "file": "04_国家关系/阶段摘要.json",
+      "sha256": "a9397b25a56fec1c1de65bb849308144c09a3bfa8e24128a6dc292f19e5e1ff2"
+    },
+    "04_国家关系/国家覆盖.csv": {
+      "file": "04_国家关系/国家覆盖.csv",
+      "sha256": "fd4a7c494f51a6d2ef172eed892382dbb7dcd704043befc9b4da144dba34aeaa",
+      "download": "csv/国家覆盖.csv"
+    },
+    "04_国家关系/相似度矩阵.csv": {
+      "file": "04_国家关系/相似度矩阵.csv",
+      "sha256": "84fe50969da14df131d2f76586e74223c8ff17a46e45ff5d47b8a71f994b698d",
+      "download": "csv/相似度矩阵.csv"
+    },
+    "01_数据清洗/最终国家统计.csv": {
+      "file": "01_数据清洗/最终国家统计.csv",
+      "sha256": "4e4e7af198ecbdeeb39bdfa78696075190fa8c4e3b37aca5500d72d658aff4ac",
+      "download": "csv/最终国家统计.csv"
+    },
+    "05_评价/方法对照.csv": {
+      "file": "05_评价/方法对照.csv",
+      "sha256": "77b4e6893cb2ea3b808ec34e1683b1b5b79eddbad5c9e49ae55a851670a58caf",
+      "download": "csv/方法对照.csv"
+    },
+    "02_分词与TFIDF/K输入诊断.csv": {
+      "file": "02_分词与TFIDF/K输入诊断.csv",
+      "sha256": "dc8b4d791eedede7c7973502fea6246f46f2f6cadb43724218613174ebbe7acf",
+      "download": "csv/K输入诊断.csv"
+    },
+    "04_国家关系/K相似度变化.csv": {
+      "file": "04_国家关系/K相似度变化.csv",
+      "sha256": "28de5b4835b2a66ee857cafc0dc18d573d9f258381d5c9171a51f2b3a0a117d0",
+      "download": "csv/K相似度变化.csv"
+    },
+    "05_评价/词数精细估计.csv": {
+      "file": "05_评价/词数精细估计.csv",
+      "sha256": "8ed3459eeceb5d21f662818e4d6784f2a910fa3f18a4166e3196e8882776f64c",
+      "download": "csv/词数精细估计.csv"
+    },
+    "05_评价/逐整数K曲线.csv": {
+      "file": "05_评价/逐整数K曲线.csv",
+      "sha256": "94f191a9d4ffec96256bb7060f4125b1b2618212831cb236a960ffc91c43ef79",
+      "download": "csv/逐整数K曲线.csv"
+    },
+    "04_国家关系/主集扩展近邻变化.csv": {
+      "file": "04_国家关系/主集扩展近邻变化.csv",
+      "sha256": "6867203f2d040ad85664d0defb9d24f21009f48d2c79db5aa87d7247ab016889",
+      "download": "csv/主集扩展近邻变化.csv"
+    },
+    "04_国家关系/前三近邻.csv": {
+      "file": "04_国家关系/前三近邻.csv",
+      "sha256": "afe44a777538a9988f38951cbfa4fbd8ac98d2c300e30a040af9993642239757",
+      "download": "csv/前三近邻.csv"
+    },
+    "05_评价/课堂真实案例.csv": {
+      "file": "05_评价/课堂真实案例.csv",
+      "sha256": "7838b62ce03790db9be89bad232eff2c922ea8c169fe127eae2b49a376a7e726",
+      "download": "csv/课堂真实案例.csv"
+    },
+    "04_国家关系/代表原文.csv": {
+      "file": "04_国家关系/代表原文.csv",
+      "sha256": "ed75a73da1dea64fcd0754f2f884ef8e2de2fbb972a3ef48af231d1016cf66ca",
+      "download": "csv/代表原文.csv"
+    },
+    "01_数据清洗/最终分析输入/全部事件记录.jsonl": {
+      "file": "01_数据清洗/最终分析输入/全部事件记录.jsonl",
+      "sha256": "0c837ae0c3ca11f9a90c1b7f7c9d483451abffdf3aab99da3ed44b3006c13bdb"
+    },
+    "05_评价/词数协议.json": {
+      "file": "05_评价/词数协议.json",
+      "sha256": "d59128c4a8047f840e63c6fd1519bb8e30f38f805634d3226e6b0d2bb45c783c"
+    },
+    "05_评价/评价范围.json": {
+      "file": "05_评价/评价范围.json",
+      "sha256": "4a1f208cdac53334c8d2903136640b24b07f4598ad0b4ab241008bf6d908bc67"
+    }
+  },
+  "data_sha256": "b705350e5d6f442616441722a3bf12c955d2f63bc829793c0ff09569770e04dc"
+}

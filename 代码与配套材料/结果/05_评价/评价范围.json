@@ -1,0 +1,11 @@
+{
+  "registered_pairs": 60,
+  "active_pairs": 38,
+  "inactive_pairs": 22,
+  "label_source": "大模型辅助参考，用户整体确认",
+  "independent_human": false,
+  "whole_corpus_precision": null,
+  "whole_corpus_recall": null,
+  "whole_corpus_F_measure": null,
+  "warning": "专项样本和框内随机分别报告；失效配对保留去向，不以相关系数当准确率。"
+}

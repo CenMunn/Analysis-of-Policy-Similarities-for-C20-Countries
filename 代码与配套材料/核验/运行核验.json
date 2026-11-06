@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": 87,
+  "csv_files": 188,
+  "csv_rows": 380344,
+  "original_data_preserved": true,
+  "independent_semantic_acceptance": false,
+  "scope": "工程重现及与冻结实验一致；不替代人工语义验收"
+}

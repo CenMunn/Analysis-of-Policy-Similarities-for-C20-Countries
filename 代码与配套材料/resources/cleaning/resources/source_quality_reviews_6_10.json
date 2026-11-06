@@ -1,0 +1,73 @@
+[
+  {
+    "review_id": "SOURCE-QUALITY-EXT-01",
+    "file_id": "text_1cb656c79b358b6e1a64fcea1dda0606.txt",
+    "normalized_sha256": "154f0e340118a17cc7993670ccde335777155bed98dab5a8c633c303ef17dabe",
+    "start": 191,
+    "end": 261,
+    "original_quote": " 此外，在未来两年内，德国政府将在2030年前建造5万个电动汽车公共充电桩和100万个充电桩，届时德国将拥有700万至1000万辆电动汽车。",
+    "disposition_reason": "两个数量与两种期限被黏连；整条歧义原句隔离，语料内已有2030年100万充电桩的清晰表述承担分析，不改写5万或推造其期限",
+    "linked_corpus_evidence": [
+      {
+        "file_id": "text_1cb656c79b358b6e1a64fcea1dda0606.txt",
+        "quote": "为了方便车主给电动汽车充电，德国政府计划到2030年建立100万个公共充电桩，并要求所有加油站安装充电桩。",
+        "start": 1435,
+        "end": 1488
+      },
+      {
+        "file_id": "text_bf87e46cf1a35042b242be5be8e4121e.txt",
+        "quote": "德国还计划到2030年时修建100万个电动车充电桩，并要求所有加油站安装充电桩。",
+        "start": 383,
+        "end": 423
+      }
+    ],
+    "external_references": [
+      {
+        "id": "DE-2030",
+        "url": "https://www.bundesregierung.de/breg-en/issues/climate-action/verkehr-1674024",
+        "issuer": "德国联邦政府",
+        "finding": "2019年气候方案的2030年100万充电设施目标；与语料内清晰表述一致",
+        "access": "官方索引可读，正文展示受站点隐私组件限制"
+      },
+      {
+        "id": "DE-50K",
+        "url": "https://www.bundestag.de/resource/blob/675848/91eb74a2dbaafe8607cf73ee9e46331f/WD-5-111-19-pdf.pdf",
+        "issuer": "德国联邦议会研究服务",
+        "finding": "2019年充电设施总体规划分别陈述未来两年5万公共充电点及其他年度安排；并非两个目标共用2030期限",
+        "access": "官方PDF索引可读；本轮直接抓取未成功，不声称已经逐页检查"
+      }
+    ],
+    "review_source": "逐条辅助证据核对；非独立人工盲审",
+    "human_confirmed": false,
+    "action": "isolate_ambiguous_occurrence_link_clear_existing_facts"
+  },
+  {
+    "review_id": "SOURCE-QUALITY-EXT-21",
+    "file_id": "text_5383eb3f760a5a2aff2f7f02203d4c8f.txt",
+    "normalized_sha256": "1b104585b534fb887fa09e48e10f63a4ea0c51f4b5b300e93c55173f1c076a33",
+    "start": 779,
+    "end": 866,
+    "original_quote": "文在寅在最近赢得大选之后，承诺在2030年之前建设12GW的海上风电，这是整个43万亿韩元(合350亿美元)“绿色新政”投资计划的一部分，该计划旨在振兴新冠疫情后的韩国经济。",
+    "disposition_reason": "最近赢得大选、疫情后新政及整笔预算的时间/身份关系未证实；歧义报道隔离，并关联语料内主管部门明确的2030年12GW目标，不把承诺写成已建成",
+    "linked_corpus_evidence": [
+      {
+        "file_id": "text_a60a3f9b4966f6469218a2a033288146.txt",
+        "quote": "对此，作为主管部门的韩国产业通商资源部提出目标：到2030年之前，在韩国境内构建12GW的海上风力发电体系，使韩国跃升为世界五大海上风电强国。",
+        "start": 347,
+        "end": 418
+      }
+    ],
+    "external_references": [
+      {
+        "id": "KR-12GW",
+        "url": "https://me.go.kr/home/web/board/read.do?boardId=1385760&boardMasterId=939&menuId=10598",
+        "issuer": "韩国环境主管部门，2020-07-17联合发布",
+        "finding": "2030年12GW海上风电目标出现在公开发展方案中；不能据此证明中文报道最近赢得大选和全部预算关系正确",
+        "access": "已抓取并核对官方发布页2020-07-17及12GW字段；本地证据外部核查证据/KR-12GW.html"
+      }
+    ],
+    "review_source": "逐条辅助证据核对；非独立人工盲审",
+    "human_confirmed": false,
+    "action": "isolate_ambiguous_occurrence_link_clear_existing_facts"
+  }
+]

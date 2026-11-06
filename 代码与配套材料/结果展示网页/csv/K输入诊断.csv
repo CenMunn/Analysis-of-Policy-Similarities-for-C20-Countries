@@ -1,0 +1,17 @@
+﻿unit,view,K,valid,total_rows,truncated,identical_to_all,mean_weight_mass
+event,main,50,782,5965,4,778,0.9996178072737828
+event,main,100,782,5965,0,782,1.0
+event,main,200,782,5965,0,782,1.0
+event,main,all,782,5965,0,782,1.0
+event,main_extended,50,5965,5965,33,5932,0.999164736164381
+event,main_extended,100,5965,5965,2,5963,0.9999270493776866
+event,main_extended,200,5965,5965,0,5965,1.0
+event,main_extended,all,5965,5965,0,5965,1.0
+article_policy,main,50,597,1868,34,563,0.98964463135472
+article_policy,main,100,597,1868,5,592,0.9996982724398272
+article_policy,main,200,597,1868,0,597,1.0
+article_policy,main,all,597,1868,0,597,1.0
+article_policy,main_extended,50,1868,1868,599,1269,0.9053208855144117
+article_policy,main_extended,100,1868,1868,203,1665,0.9772286768774016
+article_policy,main_extended,200,1868,1868,36,1832,0.9979433217406124
+article_policy,main_extended,all,1868,1868,0,1868,1.0

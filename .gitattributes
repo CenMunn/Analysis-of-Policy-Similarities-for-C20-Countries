@@ -1,0 +1,4 @@
+# Preserve original bytes: frozen resources and evidence are checked by SHA256.
+# Disabling text conversion does not disable textual diffs.
+* -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text

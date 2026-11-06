@@ -1,0 +1,16 @@
+[
+  {
+    "policy": "Affordable Clean Energy rule",
+    "aliases": ["Affordable Clean Energy", "可负担清洁能源计划", "平价清洁能源"],
+    "country": "美国",
+    "proposal_date": "2018-08-21",
+    "final_announcement_date": "2019-06-19",
+    "current_reference_pattern": "新.{0,8}计划|可负担清洁能源|平价清洁能源|Affordable Clean Energy",
+    "sources": [
+      "https://www.epa.gov/stationary-sources-air-pollution/proposal-affordable-clean-energy-ace-rule",
+      "https://www.epa.gov/newsreleases/epa-finalizes-affordable-clean-energy-rule-ensuring-reliable-diversified-energy"
+    ],
+    "scope": "仅当报告日期处于提案至最终发布之间，全文名称匹配且当前事实回指该新计划时，将其单列提案。报告日期不填作决定日期；旧CPP及其他措施不受影响。",
+    "checked_on": "2026-10-26"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "bge_reencoded": false,
+  "models_trained": false,
+  "models": [
+    "fastText cc.zh.300",
+    "BAAI/bge-small-zh-v1.5"
+  ],
+  "reference_labels_used": false
+}

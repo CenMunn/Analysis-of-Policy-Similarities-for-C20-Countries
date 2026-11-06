@@ -1,0 +1,11 @@
+{
+  "reference_events": 139,
+  "source_spans_checked": true,
+  "label_origin": "历史回源辅助参考，非独立真人验收",
+  "periods": [
+    "≤2015",
+    "2016—2020",
+    "≥2021"
+  ],
+  "limitation": "日期角色见原表，不能把目标年份当实施年；子集不代表整批，主体与文本变更后未重新核对者不继承。"
+}

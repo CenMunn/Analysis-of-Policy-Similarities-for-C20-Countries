@@ -1,0 +1,10 @@
+{
+  "coverage": 0.95,
+  "mass": 0.99,
+  "repetitions": 10000,
+  "seed": 20261027,
+  "resampling": "按来源关联连通组，组国家集合分层，组内文本共同抽取",
+  "interpretation": "固定语料K为精确描述量；区间仅为同类来源可交换假设下条件性95%百分位区间，非语义正确率",
+  "fixed_vocabulary_and_idf": true,
+  "labels_used": false
+}
